@@ -8,7 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		20BB302F2A1765EA00B5B554 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BB302E2A1765EA00B5B554 /* main.swift */; };
+		20F872EE2A17CEF30008AD28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F872ED2A17CEF30008AD28 /* main.swift */; };
+		20F873002A17E2B10008AD28 /* NoMacMusicCli-by-afixer-app in Resources */ = {isa = PBXBuildFile; fileRef = 20BB302B2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209CB29D2A17E744005C8C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BB30232A1765EA00B5B554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BB302A2A1765EA00B5B554;
+			remoteInfo = "NoMacMusicCli-by-afixer-app";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		20BB30292A1765EA00B5B554 /* CopyFiles */ = {
@@ -23,13 +35,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20BB302B2A1765EA00B5B554 /* noMacMusic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = noMacMusic; sourceTree = BUILT_PRODUCTS_DIR; };
+		209CB29F2A17E90F005C8C89 /* NoMacMusicCli-by-afixer-appRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NoMacMusicCli-by-afixer-appRelease.entitlements"; sourceTree = "<group>"; };
+		209CB2A02A17F152005C8C89 /* NoMacMusic-by-afixer-appRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NoMacMusic-by-afixer-appRelease.entitlements"; sourceTree = "<group>"; };
+		20BB302B2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NoMacMusicCli-by-afixer-app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BB302E2A1765EA00B5B554 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		20BB30352A17677600B5B554 /* noMacMusic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = noMacMusic.entitlements; sourceTree = "<group>"; };
+		20F872EB2A17CEF30008AD28 /* NoMacMusic-by-afixer-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoMacMusic-by-afixer-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F872ED2A17CEF30008AD28 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20BB30282A1765EA00B5B554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F872E82A17CEF30008AD28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +64,10 @@
 		20BB30222A1765EA00B5B554 = {
 			isa = PBXGroup;
 			children = (
-				20BB302D2A1765EA00B5B554 /* noMacMusic */,
+				209CB2A02A17F152005C8C89 /* NoMacMusic-by-afixer-appRelease.entitlements */,
+				209CB29F2A17E90F005C8C89 /* NoMacMusicCli-by-afixer-appRelease.entitlements */,
+				20BB302D2A1765EA00B5B554 /* NoMacMusicCli */,
+				20F872EC2A17CEF30008AD28 /* NoMacMusic */,
 				20BB302C2A1765EA00B5B554 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,26 +75,34 @@
 		20BB302C2A1765EA00B5B554 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20BB302B2A1765EA00B5B554 /* noMacMusic */,
+				20BB302B2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */,
+				20F872EB2A17CEF30008AD28 /* NoMacMusic-by-afixer-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20BB302D2A1765EA00B5B554 /* noMacMusic */ = {
+		20BB302D2A1765EA00B5B554 /* NoMacMusicCli */ = {
 			isa = PBXGroup;
 			children = (
-				20BB30352A17677600B5B554 /* noMacMusic.entitlements */,
 				20BB302E2A1765EA00B5B554 /* main.swift */,
 			);
-			path = noMacMusic;
+			path = NoMacMusicCli;
+			sourceTree = "<group>";
+		};
+		20F872EC2A17CEF30008AD28 /* NoMacMusic */ = {
+			isa = PBXGroup;
+			children = (
+				20F872ED2A17CEF30008AD28 /* main.swift */,
+			);
+			path = NoMacMusic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20BB302A2A1765EA00B5B554 /* noMacMusic */ = {
+		20BB302A2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BB30322A1765EA00B5B554 /* Build configuration list for PBXNativeTarget "noMacMusic" */;
+			buildConfigurationList = 20BB30322A1765EA00B5B554 /* Build configuration list for PBXNativeTarget "NoMacMusicCli-by-afixer-app" */;
 			buildPhases = (
 				20BB30272A1765EA00B5B554 /* Sources */,
 				20BB30282A1765EA00B5B554 /* Frameworks */,
@@ -79,10 +112,28 @@
 			);
 			dependencies = (
 			);
-			name = noMacMusic;
+			name = "NoMacMusicCli-by-afixer-app";
 			productName = noMacMusic;
-			productReference = 20BB302B2A1765EA00B5B554 /* noMacMusic */;
+			productReference = 20BB302B2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */;
 			productType = "com.apple.product-type.tool";
+		};
+		20F872EA2A17CEF30008AD28 /* NoMacMusic-by-afixer-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F872F72A17CEF40008AD28 /* Build configuration list for PBXNativeTarget "NoMacMusic-by-afixer-app" */;
+			buildPhases = (
+				20F872E72A17CEF30008AD28 /* Sources */,
+				20F872E82A17CEF30008AD28 /* Frameworks */,
+				20F872E92A17CEF30008AD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209CB29E2A17E744005C8C89 /* PBXTargetDependency */,
+			);
+			name = "NoMacMusic-by-afixer-app";
+			productName = NoMacMusic;
+			productReference = 20F872EB2A17CEF30008AD28 /* NoMacMusic-by-afixer-app.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -91,14 +142,18 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					20BB302A2A1765EA00B5B554 = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					20F872EA2A17CEF30008AD28 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 				};
 			};
-			buildConfigurationList = 20BB30262A1765EA00B5B554 /* Build configuration list for PBXProject "noMacMusic" */;
+			buildConfigurationList = 20BB30262A1765EA00B5B554 /* Build configuration list for PBXProject "NoMacMusic" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,10 +166,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20BB302A2A1765EA00B5B554 /* noMacMusic */,
+				20BB302A2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */,
+				20F872EA2A17CEF30008AD28 /* NoMacMusic-by-afixer-app */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F872E92A17CEF30008AD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F873002A17E2B10008AD28 /* NoMacMusicCli-by-afixer-app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20BB30272A1765EA00B5B554 /* Sources */ = {
@@ -125,7 +192,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		20F872E72A17CEF30008AD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F872EE2A17CEF30008AD28 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209CB29E2A17E744005C8C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BB302A2A1765EA00B5B554 /* NoMacMusicCli-by-afixer-app */;
+			targetProxy = 209CB29D2A17E744005C8C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		20BB30302A1765EA00B5B554 /* Debug */ = {
@@ -160,7 +243,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				EAGER_LINKING = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -168,7 +251,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = z;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -219,13 +302,14 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EAGER_LINKING = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = z;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -242,13 +326,13 @@
 		20BB30332A1765EA00B5B554 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = noMacMusic/noMacMusic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U2RX39L88;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_TESTABILITY = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = app.afixer.noMacMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
 			};
@@ -257,15 +341,89 @@
 		20BB30342A1765EA00B5B554 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = noMacMusic/noMacMusic.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "NoMacMusicCli-by-afixer-appRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 4U2RX39L88;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_TESTABILITY = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = app.afixer.noMacMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20F872F82A17CEF40008AD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4U2RX39L88;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NoMacMusic-by-afixer-app-Info.plist";
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.afixer.NoMacMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20F872F92A17CEF40008AD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NoMacMusic-by-afixer-appRelease.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 4U2RX39L88;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.afixer.NoMacMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -273,7 +431,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20BB30262A1765EA00B5B554 /* Build configuration list for PBXProject "noMacMusic" */ = {
+		20BB30262A1765EA00B5B554 /* Build configuration list for PBXProject "NoMacMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20BB30302A1765EA00B5B554 /* Debug */,
@@ -282,11 +440,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20BB30322A1765EA00B5B554 /* Build configuration list for PBXNativeTarget "noMacMusic" */ = {
+		20BB30322A1765EA00B5B554 /* Build configuration list for PBXNativeTarget "NoMacMusicCli-by-afixer-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20BB30332A1765EA00B5B554 /* Debug */,
 				20BB30342A1765EA00B5B554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F872F72A17CEF40008AD28 /* Build configuration list for PBXNativeTarget "NoMacMusic-by-afixer-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F872F82A17CEF40008AD28 /* Debug */,
+				20F872F92A17CEF40008AD28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

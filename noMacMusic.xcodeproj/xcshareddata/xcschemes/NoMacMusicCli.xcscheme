@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1430"
-   version = "2.0">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "20F872EA2A17CEF30008AD28"
-               BuildableName = "NoMacMusic-by-afixer-app.app"
-               BlueprintName = "NoMacMusic-by-afixer-app"
+               BlueprintIdentifier = "20BB302A2A1765EA00B5B554"
+               BuildableName = "NoMacMusicCli-by-afixer-app"
+               BlueprintName = "NoMacMusicCli-by-afixer-app"
                ReferencedContainer = "container:NoMacMusic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -24,8 +24,8 @@
    </BuildAction>
    <TestAction
       buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
    </TestAction>
@@ -37,18 +37,16 @@
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      debugXPCServices = "NO"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
-      viewDebuggingEnabled = "No"
-      queueDebuggingEnabled = "No">
+      viewDebuggingEnabled = "No">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20F872EA2A17CEF30008AD28"
-            BuildableName = "NoMacMusic-by-afixer-app.app"
-            BlueprintName = "NoMacMusic-by-afixer-app"
+            BlueprintIdentifier = "20BB302A2A1765EA00B5B554"
+            BuildableName = "NoMacMusicCli-by-afixer-app"
+            BlueprintName = "NoMacMusicCli-by-afixer-app"
             ReferencedContainer = "container:NoMacMusic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,15 +61,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "20F872EA2A17CEF30008AD28"
-            BuildableName = "NoMacMusic-by-afixer-app.app"
-            BlueprintName = "NoMacMusic-by-afixer-app"
+            BlueprintIdentifier = "20BB302A2A1765EA00B5B554"
+            BuildableName = "NoMacMusicCli-by-afixer-app"
+            BlueprintName = "NoMacMusicCli-by-afixer-app"
             ReferencedContainer = "container:NoMacMusic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
