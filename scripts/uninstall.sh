@@ -6,6 +6,6 @@ pkill -f "NoMacMusicCli-by-afixer-app"
 
 osascript -e "tell application \"System Events\" to delete login item \"$LOGIN_ITEM_NAME\""
 
-rm -Rf $APP_DIR
+rm -Rf "$APP_DIR"
 
 echo "Uninstall complete"
