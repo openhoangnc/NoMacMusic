@@ -12,7 +12,8 @@ Inspired by [noTunes](https://github.com/tombonez/noTunes), this tool is simpler
 
 By separating the launcher and the background process, this tool consumes almost no CPU and RAM resources.
 
-<img width="728" alt="NoMacMusic consumes almost no CPU and RAM resources" src="https://github.com/openhoangnc/NoMacMusic/assets/20717116/aa19d5ac-8632-49d6-af9d-eb0603cb983f">
+<img width="728" alt="NoMacMusic consumes almost no CPU and RAM resources" src="https://github.com/openhoangnc/NoMacMusic/assets/20717116/5f5f8138-ffc6-4cb2-a80c-61c489b4b99f">
+
 
 ## Features
 
