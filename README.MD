@@ -1,8 +1,8 @@
 # No Mac Music
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/openhoangnc/NoMacMusic)
-![GitHub all releases](https://img.shields.io/github/downloads/openhoangnc/NoMacMusic/total)
-![GitHub](https://img.shields.io/github/license/openhoangnc/NoMacMusic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/openhoangnc/NoMacMusic?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/openhoangnc/NoMacMusic/total?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/openhoangnc/NoMacMusic?style=for-the-badge)
 
 Another tool designed to disable the annoying auto-play music feature on macOS.
 
@@ -13,7 +13,6 @@ Inspired by [noTunes](https://github.com/tombonez/noTunes), this tool is simpler
 By separating the launcher and the background process, this tool consumes almost no CPU and RAM resources.
 
 <img width="728" alt="NoMacMusic consumes almost no CPU and RAM resources" src="https://github.com/openhoangnc/NoMacMusic/assets/20717116/5f5f8138-ffc6-4cb2-a80c-61c489b4b99f">
-
 
 ## Features
 
